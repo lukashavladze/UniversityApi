@@ -8,6 +8,6 @@
 
         public string LastName { get; set; }
 
-       // public virtual IList<Student> { get; set; }
+        public virtual IList<Student> Student { get; set; }
     }
 }
