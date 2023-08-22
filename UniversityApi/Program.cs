@@ -11,7 +11,7 @@ builder.Services.AddDbContext<OurDbContext>(options =>
     options.UseSqlServer(connectionString);
 });
 
-
+builder.Services.AddAutoMapper(typeof(Mappercon));
 builder.Services.AddControllers();
 builder.Services.AddCors(options =>
 {

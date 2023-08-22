@@ -8,6 +8,8 @@ namespace UniversityApi
         {
             CreateMap<Student, BasicStudentDto>().ReverseMap();
             CreateMap<Student, IDstudentDto>().ReverseMap();
+
+            CreateMap<Professor, BasicProfessorDto>().ReverseMap();
         }
     }
 }
